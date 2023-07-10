@@ -53,7 +53,7 @@ def run(
         weights=ROOT / 'yolov5s.pt',  # weights path
         imgsz=640,  # inference size (pixels)
         batch_size=1,  # batch size
-        data=ROOT / 'data/myships.yaml',  # dataset.yaml path
+        data=ROOT / 'data/coco128.yaml',  # dataset.yaml path
         device='',  # cuda device, i.e. 0 or 0,1,2,3 or cpu
         half=False,  # use FP16 half-precision inference
         test=False,  # test exports only
